@@ -15,12 +15,12 @@ Bleu clair = 37D1F3 */
 }
 
 h1 {
-    color: #1E4084;
+    color: white;
     font-size: 5em;
 }    
 h2,
 h3 {
-    color: white;
+    color: #37D1F3;
     font-size: 2em;
 }
 h4,
@@ -45,6 +45,8 @@ height: 120px;
 width: 100%;
 top: 0;
 left: 0;
+position: absolute;
+
 
 }
 
@@ -52,53 +54,52 @@ header .container {
 
     height: 100%;
     margin: 0 auto;
+    padding: 0 auto;
     display : flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     
     
     
 }
 
 .menu a {
-
-       
-    font-size: 1.2em;
+     
     font-weight: 500;
-    margin: 0 20px;
     text-decoration:none;
     color: black;
     
-    
-    
 }
 
-/* header .container .logo {
 
-    width : 10vw;
-    height : 10vh;
-    max-width : 150px;
-    max-height : 100px;
-   
-    
-} */
+
+
 
 /* banner */
 
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-position:  top;
+    background-image: url(img/bg-plastic-large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin : 0 auto;
+    
+ }
 
-
-.banner-txt {
+.banner-inside {
     height: 100%;
     margin: 0 auto;
     display : flex;
     flex-direction: column;
-    justify-content: center ;
+    justify-content: space-evenly ;
     
     
 }
 
-.banner-txt h1 {
+.banner-inside h1 {
     
     margin-top: -50px;
 }
@@ -106,37 +107,177 @@ header .container {
 /* MEDIA QUERIS */
 
 
-@media (min-width : 1000px) {
-    .banner {
-        height: 100vh;
-        width: 100%;
-        background-image: url(img/sea-plastic-large.jpg);
-        background-repeat: no-repeat;
-        background-position:  top;
-        
-        
-    } 
-    header {
-        position: absolute;
-                      
-    }   
-}
 
-@media (max-width : 1000px) {
-    .banner {
-        height: 100%;
-        width: 100%;
-        background-image: url(img/sea-plastic-large.jpg);
-        background-repeat: no-repeat;
-        background-position:  top;
-               
-    } 
-    header {
-        position: relative;
-        background-color: #1E4084;              
+@media (max-width: 575.98px) { 
+
+   
+    header .container .logo {
+        transition: 0.5s;
+        display: none;
         
-    } 
-    .menu a {
-        color : white
     }
-}
+
+    .menu a {
+        
+        transition: 0.5s;
+        font-size: 0.7em;
+        font-weight: 500;
+        margin: 0 10px;
+        
+    }
+    .banner-inside  {
+        
+        text-align: center;
+    }
+    .banner-inside h1 {
+        transition: 0.5s;
+        font-size: 2.5em;
+        margin-top: -100px;
+        
+    }
+    .banner-inside h3 {
+        transition: 0.5s;
+        font-size: 0.8em;
+        
+    }
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    
+    
+    header .container .logo {
+        transition: 0.5s;
+        scale : 70%
+    }
+    .menu a {
+
+        transition: 0.5s;
+        font-size: 0.7em;
+        font-weight: 500;
+        margin: 0 10px;
+        
+    }
+
+    .banner-inside  {
+        
+        text-align: center;
+
+    }
+    .banner-inside h1 {
+        transition: 0.5s;
+        font-size: 3em;
+        
+    }
+    .banner-inside h3 {
+        transition: 0.5s;
+        font-size: 1.2em;
+        
+    }
+    .logo2{
+        display: none;
+    }
+    
+ }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    header .container .logo {
+        transition: 0.5s;
+        scale : 80%
+    }
+
+    .menu a {
+
+        transition: 0.5s;
+        font-size: 0.9em;
+        font-weight: 500;
+        margin: 0 10px;
+        
+    }
+
+    .banner-inside h1 {
+        transition: 0.5s;
+        font-size: 3.5em;
+        
+    }
+    .banner-inside h3 {
+        transition: 0.5s;
+        font-size: 1.5em;
+        
+    }
+
+    .logo2{
+        display: none;
+    }
+    
+ }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    header .container .logo {
+        transition: 0.5s;
+        scale : 90%
+    }
+
+    .menu a {
+
+        transition: 0.5s;
+        font-size: 1em;
+        font-weight: 500;
+        margin: 0 20px;
+        
+    }
+
+    .banner-inside h1 {
+        transition: 0.5s;
+        font-size: 4em;
+        
+    }
+    .banner-inside h3 {
+        transition: 0.5s;
+        font-size: 1.7em;
+        
+    }
+
+    .logo2{
+        display: none;
+    }
+
+ }
+
+
+@media (min-width: 1200px) { 
+
+    header .container .logo {
+        transition: 0.5s;
+        scale : 100%
+    }
+
+    .menu a {
+
+        transition: 0.5s;
+        font-size: 1.2em;
+        font-weight: 500;
+        margin: 0 20px;
+        
+    }
+
+    .banner-inside h1 {
+        transition: 0.5s;
+        font-size: 5em;
+        
+    }
+    .banner-inside h3 {
+        transition: 0.5s;
+        font-size: 2em;
+        
+    }
+
+    .logo2{
+        display: none;
+    }
+
+ }
