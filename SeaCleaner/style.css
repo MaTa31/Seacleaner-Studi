@@ -11,14 +11,18 @@ Bleu clair = 37D1F3 */
     list-style: none;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    scroll-behavior: smooth
+    scroll-behavior: smooth;
+    
 }
 
 h1 {
     color: white;
     font-size: 5em;
 }    
-h2,
+h2{
+    color: #1E4084;
+    font-size: 3em;
+}
 h3 {
     color: #37D1F3;
     font-size: 2em;
@@ -33,7 +37,7 @@ button {
 }
 
 body {
-    overflow: hidden ;
+    overflow-x: hidden ;
     max-width: 1920px;
     
 }
@@ -87,6 +91,7 @@ header .container {
     background-size: cover;
     margin : 0 auto;
     
+    
  }
 
 .banner-inside {
@@ -103,6 +108,78 @@ header .container {
     
     margin-top: -50px;
 }
+
+
+/* section Infos  */
+
+.sect.info{
+
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+    padding: 0 auto;
+    display : flex;
+    flex-direction: column;
+    background-image: url(img/Waves.png);
+    background-size: 15%;
+    background-repeat: space;
+
+}
+
+.container.info {
+
+    height: 100%;
+    margin: 0 auto;
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+    
+
+
+
+}
+
+.info-keys {
+
+    height: auto;
+    width: 400px;
+    margin: 0 auto;
+    display : flex;
+    flex-direction: column;
+    
+
+
+}
+
+.container.info iframe {
+
+    margin: 0 auto;
+   
+
+}
+.title-info {
+
+    text-align: center;
+    margin: 70px 0px 80px 0px;
+    
+
+
+}
+.stats {
+  
+    display : flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.stats .value{
+
+    font-size: 5em;
+}
+
 
 /* MEDIA QUERIS */
 
@@ -140,7 +217,7 @@ header .container {
         font-size: 0.8em;
         
     }
- }
+}
 
 
 @media (min-width: 576px) and (max-width: 767.98px) { 
@@ -178,7 +255,7 @@ header .container {
         display: none;
     }
     
- }
+}
 
 
 @media (min-width: 768px) and (max-width: 991.98px) { 
@@ -212,7 +289,7 @@ header .container {
         display: none;
     }
     
- }
+}
 
 
 @media (min-width: 992px) and (max-width: 1199.98px) { 
@@ -246,7 +323,7 @@ header .container {
         display: none;
     }
 
- }
+}
 
 
 @media (min-width: 1200px) { 
@@ -280,4 +357,12 @@ header .container {
         display: none;
     }
 
- }
+}
+
+
+/* opacity:0;
+    animation: transition 1s ease-in-out 2s forwards;
+@keyframes transition {
+    0%   { margin-left: -70px;opacity:0; }
+    100% { margin-left: 0;opacity:1; }
+} */
