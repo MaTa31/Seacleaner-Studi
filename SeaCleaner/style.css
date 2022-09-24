@@ -120,11 +120,11 @@ header .container {
     padding: 0 auto;
     display : flex;
     flex-direction: column;
-    background-image: url(img/Waves.png);
-    background-size: 15%;
-    background-repeat: space;
+    align-items: center;
+    
 
 }
+
 
 .container.info {
 
@@ -167,6 +167,10 @@ header .container {
 
 
 }
+
+
+
+
 .stats {
   
     display : flex;
@@ -180,6 +184,54 @@ header .container {
     font-size: 5em;
 }
 
+/* section Actions  */
+
+.title-actions h2{
+
+    color:#37D1F3
+}
+
+.actions{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    margin : 0 auto;
+    background-color: #1E4084;
+
+}
+
+.carousel{
+    justify-items: center;
+    width: 400px;
+    height: auto;
+}
+/* section Agir  */
+.agir{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.agir .col{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.card-img-top {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    }
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
 
 /* MEDIA QUERIS */
 
