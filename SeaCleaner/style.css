@@ -66,8 +66,10 @@ body {
 }
 /* Animations Cards */
 
-.card:hover{
+#CardEven:hover{
     filter: drop-shadow(0 0 1rem #37D1F3);
+    transition: 0.5s;
+    cursor: pointer;
 
 }
 /* Animations page construction */
@@ -332,11 +334,11 @@ header .container {
     
 }
 
-/* .carousel-caption{
-    
-    color: ;
-    
-} */
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.35);
+}
+
+
 /* section Agir  */
 .agir{
     display : flex;

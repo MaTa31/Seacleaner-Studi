@@ -1,6 +1,4 @@
 var  nav = document.getElementById('back');
-
-
       
       window.onscroll = function(){
 
@@ -22,3 +20,4 @@ var  nav = document.getElementById('back');
         
         }
       }
+
