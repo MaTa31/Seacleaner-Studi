@@ -14,32 +14,38 @@ font-family:'Roboto',sans-serif;
 scroll-behavior:smooth
 }
 
+
+
 h1 {
 color:#fff;
-font-size:5em
+/* font-size:5em GERER EN MEDIA QUERY*/
 }
 
 h2 {
 color:#1E4084;
-font-size:3em
+/* font-size:3em GERER EN MEDIA QUERY*/
 }
 
 h3 {
 color:#37D1F3;
-font-size:2em
+/* font-size:2em GERER EN MEDIA QUERY*/
 }
 
 h4 {
-font-size:1.7em
+/* font-size:1.7em GERER EN MEDIA QUERY*/
 }
 
 h5 {
-font-size:1.5em
+/* font-size:1.5em GERER EN MEDIA QUERY*/
 }
 
 p {
-font-size:1em
+/* font-size:1em GERER EN MEDIA QUERY*/
 }
+
+.btn-info {
+    /* font-size:1em GERER EN MEDIA QUERY*/
+} 
 
 button {
 font-family:'Roboto',sans-serif
@@ -155,17 +161,12 @@ width:100%;
 top:0;
 left:0;
 position:absolute;
-height:120px;
-width:100%;
-top:0;
-left:0;
-position:relative
+
 }
 
 header .container {
 height:100%;
 margin:0 auto;
-padding:0 auto;
 display:flex;
 flex-direction:row;
 align-items:center;
@@ -209,7 +210,6 @@ margin-top:-50px
 height:auto;
 width:auto;
 margin:0 auto;
-padding:0 auto;
 display:flex;
 flex-direction:column;
 align-items:center
@@ -350,7 +350,7 @@ display:none
 
 .menu a {
 transition:.5s;
-font-size:.7em;
+font-size:.9em;
 font-weight:500;
 margin:0 10px
 }
@@ -361,18 +361,18 @@ text-align:center
 
 .banner-inside h1 {
 transition:.5s;
-font-size:2.5em;
+font-size:3em;
 margin-top:-100px
 }
 
 h2 {
 transition:.5s;
-font-size:1.5em
+font-size:1.8em
 }
 
 h3 {
 transition:.5s;
-font-size:1em
+font-size:1.2em
 }
 
 h4 {
@@ -382,12 +382,15 @@ font-size:1em
 
 h5 {
 transition:.5s;
-font-size:.8em
+font-size:.9em
 }
 
 p {
 transition:.5s;
-font-size:.6em
+font-size:.75em
+}
+.btn-info {
+    font-size:.75em
 }
 
 .container.info {
@@ -439,13 +442,14 @@ margin-top:20px
 header .container .logo {
 transition:.5s;
 scale:70%
+
 }
 
 .menu a {
 transition:.5s;
-font-size:.7em;
+font-size:.75em;
 font-weight:500;
-margin:0 10px
+margin:0 5px
 }
 
 .banner-inside {
@@ -454,32 +458,35 @@ text-align:center
 
 h1 {
 transition:.5s;
-font-size:3em
+font-size:3.5em
 }
 
 h2 {
 transition:.5s;
-font-size:1.7em
+font-size:2.1em
 }
 
 h3 {
 transition:.5s;
-font-size:1.2em
+font-size:1.4em
 }
 
 h4 {
 transition:.5s;
-font-size:1em
+font-size:1.2em
 }
 
 h5 {
 transition:.5s;
-font-size:.8em
+font-size:1em
 }
 
 p {
 transition:.5s;
-font-size:.6em
+font-size:.8em
+}
+.btn-info {
+    font-size:.8em
 }
 
 .logo2 {
@@ -525,32 +532,35 @@ margin:0 10px
 
 h1 {
 transition:.5s;
-font-size:3.5em
+font-size:4em
 }
 
 h2 {
 transition:.5s;
-font-size:2em
+font-size:2.4em
 }
 
 h3 {
 transition:.5s;
-font-size:1.5em
+font-size:1.6em
 }
 
 h4 {
 transition:.5s;
-font-size:1.3em
+font-size:1.4em
 }
 
 h5 {
 transition:.5s;
-font-size:1em
+font-size:1.2em
 }
 
 p {
 transition:.5s;
-font-size:.7em
+font-size:.85em
+}
+.btn-info {
+    font-size:.85em
 }
 
 .logo2 {
@@ -596,17 +606,17 @@ margin:0 20px
 
 h1 {
 transition:.5s;
-font-size:4em
+font-size: 4.5em
 }
 
 h2 {
 transition:.5s;
-font-size:2.5em
+font-size:2.7em
 }
 
 h3 {
 transition:.5s;
-font-size:1.7em
+font-size:1.8em
 }
 
 h4 {
@@ -621,7 +631,10 @@ font-size:1.3em
 
 p {
 transition:.5s;
-font-size:.8em
+font-size:.9em
+}
+.btn-info {
+    font-size:9em
 }
 
 .logo2 {
@@ -649,7 +662,7 @@ margin:0 20px
 
 h1 {
 transition:.5s;
-font-size:5em
+font-size: 5em
 }
 
 h2 {
@@ -675,6 +688,10 @@ font-size:1.5em
 p {
 transition:.5s;
 font-size:1em
+}
+
+.btn-info {
+    font-size:1em
 }
 
 .logo2 {
