@@ -20,4 +20,4 @@ var  nav = document.getElementById('back');
         
         }
       }
-document.cookie = 'cross-site-cookie=bar; SameSite=Strict';
+
